@@ -14,3 +14,4 @@ for i in range(0, len(input_lst)):
         input_lst[i], input_lst[j] = comp(input_lst[i], input_lst[j])
 print(input_lst)
 
+#중첩 for문을 작성하기 때문에 정렬 알고리즘 시간 복잡도는 O(n^2)이다. best/avg/worst 전부 같은 시간 복잡도
