@@ -32,7 +32,8 @@ for i in range(0, len(input_lst)):
 
 
 print(input_lst)
-
+# 문제 해결 방향은 맞았으나, 인덱스를 사용하느냐 값을 받아 인덱스로 다시 변환하느냐의 차이로 난이도가 매우 달라짐
+# 또한 값을 받아 다시 인덱스로 변환하게 될경우 구현한 swap 함수가 적용되지 않음. 따라서 인덱스를 사용하는것이 훨씬 간단함
 #for i in range(0, len(input_lst)):
 #    k = input_lst[i]
 #    t = input_lst[input_lst.index(min_num(input_lst[i:]))]
